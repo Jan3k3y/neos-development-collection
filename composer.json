@@ -24,7 +24,6 @@
         "neos/flow": "*",
         "neos/neos-ui": "*",
         "behat/behat": "^3.5",
-        "phpunit/phpunit": "^9.0",
         "symfony/property-access": "*",
         "neos/fluid-adaptor": "*",
         "neos/cache": "*",
@@ -41,8 +40,7 @@
         "neos/twitter-bootstrap": "*",
         "neos/fusion-form": "^1.0 || ^2.0",
         "neos/form": "*",
-        "neos/kickstarter": "~9.0.0",
-        "league/flysystem-memory": "^3"
+        "neos/kickstarter": "~9.0.0"
     },
     "replace": {
         "packagefactory/atomicfusion-afx": "*",
