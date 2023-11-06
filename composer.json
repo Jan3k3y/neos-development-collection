@@ -25,7 +25,6 @@
         "webmozart/assert": "^1.11",
         "neos/flow": "*",
         "behat/behat": "^3.5",
-        "phpunit/phpunit": "^9.0",
         "neos/behat": "^9.0",
         "neos/contentrepositoryregistry-storageclient": "self.version",
         "symfony/property-access": "*",
