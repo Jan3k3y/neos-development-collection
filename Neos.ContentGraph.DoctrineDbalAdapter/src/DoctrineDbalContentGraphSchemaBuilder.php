@@ -98,11 +98,16 @@ class DoctrineDbalContentGraphSchemaBuilder
             DbalSchemaFactory::columnForNodeAggregateId('affectednodeaggregateid')->setNotnull(false),
         ]);
 
-        return $table->setPrimaryKey([
-            'contentstreamid',
-            'dimensionspacepointhash',
-            'originnodeaggregateid',
-            'affectednodeaggregateid'
-        ]);
+        return $table
+            ->setPrimaryKey([
+                'contentstreamid',
+                'dimensionspacepointhash',
+                'originnodeaggregateid',
+                'affectednodeaggregateid'
+            ])
+            ->addIndex(['contentstreamid'])
+            ->addIndex(['dimensionspacepointhash'])
+            ->addIndex(['originnodeaggregateid'])
+            ->addIndex(['affectednodeaggregateid']);
     }
 }
